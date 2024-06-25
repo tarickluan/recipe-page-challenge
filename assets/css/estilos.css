@@ -1,0 +1,157 @@
+body {
+    font-family: "Outfit", sans-serif;
+    line-height: 1.6;
+    background-color: hsl(30, 54%, 90%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.conteiner {
+    background-color: hsl(330, 100%, 98%);
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.omelete {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Young Serif", serif;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.4em;
+    color: hsl(332, 51%, 32%);
+}
+
+h3 {
+    font-size: 1.2em;
+    color: hsl(14, 45%, 36%);
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: hsl(24, 5%, 18%);
+}
+
+ul,
+ol {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    color: hsl(14, 45%, 36%);
+}
+
+ul[type="square"] {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li,
+ol li {
+    margin-bottom: 10px;
+    margin-left: 0px;
+    padding-left: 10px;
+    position: relative;
+}
+
+ul li::before,
+ol li::before {
+    position: absolute;
+    left: -20px;
+    color: hsl(14, 45%, 36%);
+}
+
+ol {
+    list-style: none;
+    counter-reset: li-counter;
+}
+
+ol li {
+    counter-increment: li-counter;
+}
+
+ol li::before {
+    content: counter(li-counter)".";
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff4f4;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table td {
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+
+table tr:not(:last-child) td {
+    border-bottom: 1px solid #ddd;
+}
+
+table,
+th,
+td {
+    border: none;
+}
+
+.preparacao {
+    background-color: hsl(325, 81%, 96%);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.preparacao ul {
+    padding-left: 40px;
+}
+
+.preparacao li {
+    margin-bottom: 5px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+footer.atribuicao {
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+footer.atribuicao a {
+    text-decoration: none;
+}
+
+footer.atribuicao a:hover {
+    text-decoration: underline;
+}
