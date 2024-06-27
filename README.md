@@ -42,7 +42,7 @@ Os usuários devem ser capazes de:
 ### Links
 
 - URL do projeto: [GitHub Pages](https://tarickluan.github.io/recipe-page-challenge)
-- Repositório: [GitHub Repository](https://github.com/seu-usuario/recipe-page-challenge)
+- Repositório: [GitHub Repository](https://github.com/tarickluan/recipe-page-challenge)
 
 ## Meu Processo
 
